@@ -14,8 +14,8 @@ var playerLife = 5;
 var hackerLife = 5;
 
 // Message to be displayed when the game is over
-var hackerWinnerMessage = "Write the message here";
-var playerWinnerMessage = "Write the message here";
+var hackerWinnerMessage = "THE HACKER WON! DUH:(";
+var playerWinnerMessage = "YAYY! YOU WON!:)";
 
           // ---------------Game code starts here ---------------//
 
