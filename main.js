@@ -145,11 +145,12 @@ function gameOver(winner) {
 
 // Write a function that starts the game
 function startGame() {
-          document.querySelector(".game-board").classList.remove("before-game");
-  document.querySelector(".game-board").classList.add("during-game");
-  playTurn();
+  startbutton.parentNode.removeChild(startbutton);
+  revealCards();
 
 }
+
+
 
 
 // Now write a function that starts the game over from scratch
